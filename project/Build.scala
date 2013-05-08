@@ -25,7 +25,7 @@ object Build extends sbt.Build {
     organization := "org.zeromq",
     name         := "zeromq-scala-binding",
     version      := "1.0.0-SNAPSHOT",
-    scalaVersion := "2.10.0-M7",
+    scalaVersion := "2.10.1",
     licenses := Seq("The Apache Software License, Version 2.0" -> url("http://www.apache.org/licenses/LICENSE-2.0.txt")),
     homepage := Some(url("https://github.com/valotrading/zeromq-scala-binding"))
   )
